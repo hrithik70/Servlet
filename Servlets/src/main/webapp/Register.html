@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style>
+.box {
+	background-color: red;
+	height: 500px;
+	width: 500px;
+	border: 2px solid;
+	margin-left: 500px;
+	margin-top: 75px;
+}
+</style>
+</head>
+<body>
+	<div class="box">
+
+		<form action="./form" method="post">
+
+			<table>
+				<tr>
+					<td>Name :</td>
+					<td><input type="text" name="uname"></td>
+				</tr>
+
+				<tr>
+					<td>Age :</td>
+					<td><input type="number" name="age"></td>
+				</tr>
+				
+				<tr>
+					<td>Gender :</td>
+					<td><input type="radio" value="Male" name="gender">Male</td>
+					<td><input type="radio" value="Female" name="gender">Female</td>
+				</tr>
+				
+				<tr>
+					<td align="center"><input type="submit" value="Send"></td>
+					
+				</tr>
+				
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
